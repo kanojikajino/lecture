@@ -29,7 +29,6 @@
     /* element-overrides */
 }
 
-
 /* コードの背景色 表面色 フォントサイズ */
 .rise-enabled .reveal .slides code
 {
@@ -37,3 +36,29 @@
     color: black;
     font-size: 60%;
 }
+
+.reveal table th, .reveal table td {
+    color: black;
+    font-size: 30px;
+    margin: auto;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+/*
+.rise-enabled .reveal .slides table th {
+  font-weight: bold;
+}
+
+.rise-enabled .reveal .slides table th {
+    font-size: 20px !important;
+},
+.rise-enabled .reveal .slides table td {
+  text-align: left !important;
+  padding: 0.2em 0.5em 0.2em 0.5em !important;
+  border-bottom: 1px solid !important;
+}
+
+.reveal table th, .reveal table td {
+    font-size: 16px;
+    color: black;
+}
+*/
