@@ -1,0 +1,39 @@
+.rise-enabled .reveal .slides
+{
+    font-size: 20px;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Ricty", monospace;
+}
+
+.rise-enabled .reveal .slides h1 {
+    text-align: top;
+}
+
+/* 文字の色関係 
+.rise-enabled .reveal .slides :-webkit-any(h1, h2, h3, h4, h5, h6, p, li),
+.rise-enabled .reveal .slides div.output_subarea>pre
+{
+    color: black;
+}
+*/
+/* リンクハイライト 
+.rise-enabled .reveal .slides a
+{
+    color: yellow;
+}
+*/
+/* スライド背景色 */
+.rise-enabled .reveal
+{
+    background-color: #EEE;
+    /* element-overrides */
+}
+
+
+/* コードの背景色 表面色 フォントサイズ */
+.rise-enabled .reveal .slides code
+{
+    background-color: transparent;
+    color: black;
+    font-size: 60%;
+}
