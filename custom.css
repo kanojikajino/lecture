@@ -1,12 +1,13 @@
 .rise-enabled .reveal .slides
 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-family: "Ricty", monospace;
 }
 
 .rise-enabled .reveal .slides h1 {
     text-align: top;
+    color: navy;
 }
 
 /* 文字の色関係 
@@ -42,6 +43,10 @@
     font-size: 30px;
     margin: auto;
     padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.reveal hr {
+    color: black;
 }
 /*
 .rise-enabled .reveal .slides table th {
