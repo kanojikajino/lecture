@@ -1,43 +1,30 @@
-.rise-enabled .reveal .slides
+.reveal
 {
     font-size: 18px;
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-family: "Ricty", monospace;
 }
 
-.rise-enabled .reveal .slides h1 {
+.reveal h1 {
     text-align: top;
     color: navy;
 }
 
-/* 文字の色関係 
-.rise-enabled .reveal .slides :-webkit-any(h1, h2, h3, h4, h5, h6, p, li),
-.rise-enabled .reveal .slides div.output_subarea>pre
-{
-    color: black;
-}
-*/
-/* リンクハイライト 
-.rise-enabled .reveal .slides a
-{
-    color: yellow;
-}
-*/
-/* スライド背景色 */
-.rise-enabled .reveal
+/* slide background */
+.reveal
 {
     background-color: #EEE;
-    /* element-overrides */
 }
 
-/* コードの背景色 表面色 フォントサイズ */
-.rise-enabled .reveal .slides code
+/* code block */
+.reveal code
 {
     background-color: transparent;
     color: black;
     font-size: 60%;
 }
 
+/* table */
 .reveal table th, .reveal table td {
     color: black;
     font-size: 30px;
@@ -48,22 +35,3 @@
 .reveal hr {
     color: black;
 }
-/*
-.rise-enabled .reveal .slides table th {
-  font-weight: bold;
-}
-
-.rise-enabled .reveal .slides table th {
-    font-size: 20px !important;
-},
-.rise-enabled .reveal .slides table td {
-  text-align: left !important;
-  padding: 0.2em 0.5em 0.2em 0.5em !important;
-  border-bottom: 1px solid !important;
-}
-
-.reveal table th, .reveal table td {
-    font-size: 16px;
-    color: black;
-}
-*/
