@@ -1,6 +1,6 @@
 .reveal
 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-family: "Ricty", monospace;
 }
@@ -21,7 +21,7 @@
 {
     background-color: transparent;
     color: black;
-    font-size: 60%;
+    font-size: 80%;
 }
 
 /* table */
